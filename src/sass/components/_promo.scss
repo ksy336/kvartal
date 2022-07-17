@@ -1,0 +1,23 @@
+.promo {
+  padding-top: 103px;
+  padding-bottom: 104px;
+}
+.promo__content {
+  padding-right: 56px;
+}
+.promo__title {
+  margin-bottom: 40px;
+}
+.promo__text,
+.promo__add-text {
+  font-family: 'Geometria', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 120%;
+  color: $color-black;
+  margin-bottom: 40px;
+}
+.promo__add-text {
+  margin-bottom: 0;
+}

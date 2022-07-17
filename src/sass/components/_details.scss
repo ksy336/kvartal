@@ -1,0 +1,83 @@
+.city-details {
+  padding-top: 80px;
+}
+.city-details__title {
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-title {
+  color: $color-additional;
+  width: 644px;
+  text-align: center;
+}
+.image__details {
+  position: relative;
+}
+.details__text  {
+  display: block;
+  padding: 76px 25px 32px 28px;
+  font-family: "Geometria-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 100%;
+  color: #FFFFFF;
+  position: absolute;
+  top: 44%;
+}
+.more-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more-details a {
+  font-family: 'Geometria-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 100%;
+  text-align: center;
+  color: $color-link;
+  text-decoration: none;
+}
+.layout__details > * {
+  margin-bottom: 30px;
+}
+.details-shadow {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background-blend-mode: multiply;
+  border-radius: 0px 0px 10px 10px;
+}
+.details__flat {
+  top: 53%;
+}
+.details__owners {
+  width: 415px;
+  top: 53%;
+}
+.details__owners-window {
+  width: 415px;
+  top: 45%;
+}
+.details__block {
+  width: 350px;
+  top: 45%;
+}
+.details__storage {
+  width: 286px;
+  top: 53%;
+}
+.details__water {
+  width: 350px;
+  top: 53%;
+}
+.details__wait {
+  width: 415px;
+  top: 45%;
+}
+.details__store {
+  width: 286px;
+  top: 53%;
+}

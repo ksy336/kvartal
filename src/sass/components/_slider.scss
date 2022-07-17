@@ -1,0 +1,178 @@
+.slider__title {
+  margin-bottom: 60px;
+  width: 343px;
+}
+.slider__content {
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 547px;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+}
+.slider__wrapper {
+  position: relative;
+}
+.slider__content > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider__image {
+  border-radius: 20px 0px 0px 20px;
+}
+.image__scheme {
+  margin-top: 70px;
+}
+.description__flat {
+  margin-top: 82px;
+
+}
+.description-title {
+  font-family: 'Geometria-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: $color-black;
+  margin-bottom: 37px;
+}
+.description__about__text {
+  width: 308px;
+  font-family: 'Geometria-Light', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+  color: #000000;
+  margin-bottom: 23px;
+}
+.button__description {
+  width: 241px;
+  margin-bottom: 21px;
+}
+.button__flat {
+  padding: 11px 22px 13px 24px;
+  font-family: 'Geometria-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height:3rem;
+  text-align: center;
+  color: $color-description;
+}
+.text-add {
+  margin-bottom: 13px;
+}
+.text-add span {
+  font-family: 'Geometria-Light', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height:2.3rem;
+  color: #000000;
+  margin-left: 43px;
+}
+.layout--info {
+  border-bottom: 0.5px solid #000000;
+}
+.photo-light {
+  border-radius: 20px 0px 0px 20px;
+}
+.price__flat {
+  margin-top: 25px;
+}
+.description-price,
+.square__description span {
+  font-family: 'Geometria-Light', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+  color: $color-black;
+}
+.flat__text {
+  margin-left: 43px;
+}
+.price__total {
+  margin-top: 2px;
+  margin-left: 43px;
+}
+.price__text {
+  font-family: 'Geometria-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  color: #2B2422;
+}
+.square__description {
+  margin-top: 25px;
+  margin-bottom: 1px;
+}
+.square__text {
+  margin-right: 42px;
+}
+.section__text {
+  margin-right: 42px;
+}
+.square__meter span {
+  font-family: 'Geometria-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  color: #2B2422;
+}
+.square__number {
+  margin-right: 42px;
+}
+.square__number_last {
+  margin-left: 42px;
+}
+.slider-content {
+  max-width: 1140px;
+  height: 547px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 8px 8px 25px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  margin-top: 61px;
+  margin-bottom: 60px;
+}
+
+.dots__dot {
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
+
+}
+
+.dots__dot:last-child {
+  margin: 0;
+}
+
+.dots__dot--active {
+  background-color: $color-additional;
+  opacity: 1;
+}
+

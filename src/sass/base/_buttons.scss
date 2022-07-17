@@ -1,0 +1,38 @@
+.button {
+  padding: 11px 21px 13px 22px;
+  cursor: pointer;
+  font-family: 'Geometria-Medium', sans-serif;
+  font-style: normal;
+  text-align: center;
+  border-right: 4px;
+  transition: all .3s;
+  font-weight: 500;
+  color: $color-description;
+  border: none;
+  font-size: 2rem;
+  line-height: 3rem;
+  &_headered {
+    background: linear-gradient(34.66deg, #BC1822 16.88%, #E53322 76%);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    border: none;
+
+    &:hover {
+      background: $color-hovered;
+      border-color: $color-hovered;
+    }
+  }
+  &_green {
+    background: linear-gradient(34.66deg, #82B428 16.88%, #C5D210 76%);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    border: none;
+    padding: 11px 14px 13px 14px;
+    color: $color-description;
+
+    &:hover {
+      background: $color-hovered;
+      border-color: $color-hovered;
+    }
+  }
+}

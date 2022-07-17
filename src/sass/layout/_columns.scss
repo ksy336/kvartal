@@ -1,0 +1,28 @@
+.layout-two-column {
+  @include columns($width: 48%);
+
+}
+.layout-three-column {
+  @include columns($width: 30%);
+  flex-wrap: wrap;
+  &:after {
+    content: '';
+    width: 30%;
+    display: block;
+  }
+}
+.layout-two-other-column {
+  @include columns($width: 25%);
+}
+.layout-three-half-column {
+  @include columns($width: 25%);
+  flex-wrap: wrap;
+}
+.layout-two-half-column {
+  display: flex;
+  >* {
+    flex-basis: 25%;
+  }
+  flex-wrap: nowrap;
+
+}

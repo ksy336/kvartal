@@ -1,0 +1,54 @@
+.footer {
+  background: $color-additional;
+  padding-bottom: 52px;
+}
+.footer__logo {
+  margin-top: 65px;
+
+}
+.footer__icons {
+  margin-top: 58px;
+  margin-left: 110px;
+}
+.ico {
+  margin-right: 23px;
+}
+.tel {
+  font-family: 'Geometria-Bold', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 2.7rem;
+  color:$color-description;
+  margin-bottom: 42px;
+}
+.contacts__tel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;justify-content: center;
+
+}
+.creator {
+  margin-bottom: 38px;
+}
+.creator span{
+  font-family: 'Geometria-Light', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 0px;
+  text-align: center;
+  color:$color-description;
+}
+.politician {
+  font-family: 'Geometria-Light', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color:$color-description;
+}
+.logo__bridge {
+  margin-top: 63px;
+}

@@ -1,0 +1,66 @@
+.header {
+  background-image: url("../assets/background.jpg");
+  background-size: 1920px 961px;
+  background-repeat: no-repeat;
+  padding-bottom: 172px;
+  padding-top: 125px;
+  position: relative;
+  height: 961px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.medium-circle {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  z-index: 1;
+  width: 268px;
+  height: 268px;
+  border-radius: 100%;
+  background: linear-gradient(147.64deg, #C5D210 13.56%, #82B428 85.54%);
+}
+.small-circle {
+  position: absolute;
+  left: 65%;
+  top: 35%;
+  width: 105px;
+  height: 105px;
+  border-radius: 100%;
+  background: linear-gradient(147.64deg, #8DCEED 13.56%, #2DA3DC 85.54%)
+}
+.header__logo-circle {
+  margin-left: 263px;
+  padding-left: 145px;
+  padding-top: 105px;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  width: 664px;
+  height: 664px;
+  background: linear-gradient(147.64deg, #FFFFFF 13.56%, #F1F1F1 85.54%);
+}
+.header__logo {
+  margin-bottom: 35px;
+}
+.header__title {
+  margin-bottom: 25px;
+}
+
+.header__description {
+  margin-bottom: 21px;
+}
+.description {
+  font-family: 'Geometria', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 110%;
+  color: $color-black;
+  width: 403px;
+}
+.header__buttons {
+  margin-bottom: 78px;
+}

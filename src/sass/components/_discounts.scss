@@ -1,0 +1,35 @@
+.discounts {
+  padding-top: 100px;
+  background-image: url("../assets/family.jpg");
+  background-size: 1920px 473px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-bottom: 69px;
+}
+.discount__title h2 {
+  color: $color-additional;
+  width: 387px;
+  margin-bottom: 34px;
+}
+.discount__text p {
+  font-family: "Geometria", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 120%;
+  color: #2B2422;
+  margin-bottom: 46px;
+  width: 442px;
+}
+.button__application {
+  padding: 11px 41px 13px 22px;
+  font-family: 'Geometria-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: $color-description;
+}
+.button__discount {
+
+}

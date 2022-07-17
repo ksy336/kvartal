@@ -1,0 +1,65 @@
+.planned-flat {
+  padding-top: 150px;
+}
+.planned_flat{
+  margin-bottom: 21px;
+  position: relative;
+}
+.planned__text span {
+  display: block;
+  padding: 77px 84px 31px 28px;
+  position: absolute;
+  font-family: 'Geometria-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 100%;
+  color: $color-description;
+  top: 44%;
+  background: linear-gradient(180deg, rgba(100, 104, 101, 0) 16.67%, #646865 100%);
+  background-blend-mode: multiply;
+  border-radius: 0px 0px 10px 10px;
+}
+.high-text-plan span {
+  top: 53%;
+  display: block;
+  padding: 77px 84px 31px 28px;
+  position: absolute;
+  font-family: 'Geometria-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 100%;
+  color: $color-description;
+  background: linear-gradient(180deg, rgba(100, 104, 101, 0) 16.67%, #646865 100%);
+  background-blend-mode: multiply;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.high-text {
+ width: 238px;
+}
+.planned__text h2 {
+  color: $color-background;
+  position: absolute;
+  width: 284px;
+  left: 70%;
+  top: 30%;
+}
+.button-show {
+  position: absolute;
+  left: 70%;
+  top: 70%;
+  width: 254px;
+  max-width: 254px;
+  font-family: 'Geometria-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.shadow__text {
+  width: 350px;
+}
