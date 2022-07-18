@@ -42,6 +42,8 @@
   }
 }
 .promo__image img {
-  width: 290px;
-  border-radius: 10px;
+  @include media-mobile {
+    width: 290px;
+    border-radius: 10px;
+  }
 }

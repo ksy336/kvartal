@@ -92,6 +92,8 @@
   }
 }
 .layout-contacts {
-  flex-direction: column-reverse;
-  align-items: flex-start;
+  @include media-mobile {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
 }

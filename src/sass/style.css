@@ -836,9 +836,11 @@ h2 {
   }
 }
 
-.promo__image img {
-  width: 290px;
-  border-radius: 10px;
+@media (max-width: 414px) {
+  .promo__image img {
+    width: 290px;
+    border-radius: 10px;
+  }
 }
 
 .info__city {
@@ -1606,9 +1608,11 @@ h2 {
   }
 }
 
-.layout-contacts {
-  flex-direction: column-reverse;
-  align-items: flex-start;
+@media (max-width: 414px) {
+  .layout-contacts {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
 }
 
 @font-face {
