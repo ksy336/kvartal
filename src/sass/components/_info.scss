@@ -35,8 +35,20 @@
   top: 44%;
   padding-right: 84px;
 }
+
 .info-invisible {
   display: none;
+  font-family: 'Geometria-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: #FFFFFF;
+  position: absolute;
+  padding-left: 28px;
+  width: 292px;
+  padding-top: 135px;
+  padding-bottom: 11px;
 }
 .visible {
   display: block;

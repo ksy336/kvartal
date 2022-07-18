@@ -4,13 +4,21 @@
 const addNewInfo = (e) => {
     const descriptions = document.querySelectorAll(".city-description");
     const invisibleText = document.querySelectorAll(".info-invisible");
+
+    const clickHandler = (text) => {
+        text.classList.toggle("visible");
+    }
+
     descriptions.forEach((card) => {
         card.addEventListener("click", function (e) {
-                // invisibleText.style.display = (invisibleText.style.display = "none") ? "inline-block" : "none";
-             console.log(e.target)
-            invisibleText.forEach((text) => {
-                text.classList.toggle("visible");
-            })
+            // if(e.target.classList.contains("info-invisible")) {
+            //     clickHandler(e.target)
+            // }
+                console.log(e.target)
+                invisibleText.forEach((text) => {
+                        text.classList.toggle("visible");
+                })
+
         });
     })
 }
