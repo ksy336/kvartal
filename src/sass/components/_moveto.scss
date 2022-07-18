@@ -5,6 +5,9 @@
   color: $color-additional;
   width: 387px;
   margin-bottom: 40px;
+  @include media-mobile {
+    width: 256px;
+  }
 }
 .moveto__text p {
   font-family: "Geometria", sans-serif;
@@ -15,7 +18,17 @@
   color: #2B2422;
   margin-bottom: 46px;
   width: 415px;
+  @include media-mobile {
+    width: 266px;
+  }
 }
 .first__column {
   padding-right: 59px;
+}
+.second__column img {
+  @include media-mobile {
+    width: 100vw;
+    padding-left: 0;
+    padding-bottom: 42px;
+  }
 }

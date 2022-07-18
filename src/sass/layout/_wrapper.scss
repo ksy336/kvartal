@@ -1,4 +1,8 @@
 .wrapper {
   max-width: $content-width;
   margin: 0 auto;
+  @include media-mobile {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }

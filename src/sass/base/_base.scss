@@ -28,6 +28,11 @@ h2 {
   color: $color-heading;
 }
  p {
-   margin: 0;
+   @include media-mobile {
+     @include font($size: 1.2rem, $height: 110%);
+     margin: 0;
+     font-style: normal;
+     font-weight: 400;
+   }
  }
 

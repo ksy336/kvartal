@@ -1,6 +1,9 @@
 .slider__title {
   margin-bottom: 60px;
   width: 343px;
+  @include media-mobile {
+    margin-bottom: 26px;
+  }
 }
 .slider__content {
   background: #FFFFFF;

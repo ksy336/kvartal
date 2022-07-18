@@ -1,5 +1,9 @@
 .layout-two-column {
   @include columns($width: 48%);
+  @include media-mobile {
+    flex-wrap: wrap;
+    @include columns($width: 100%);
+  }
 
 }
 .layout-three-column {

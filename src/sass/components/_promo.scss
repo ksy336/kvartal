@@ -1,13 +1,27 @@
 .promo {
   padding-top: 103px;
   padding-bottom: 104px;
+  @include media-mobile {
+      padding-top: 46px;
+      padding-bottom: 47px;
+    }
 }
 .promo__content {
   padding-right: 56px;
+  @include media-mobile {
+    padding-right: 0;
+  }
 }
+
 .promo__title {
   margin-bottom: 40px;
+  @include media-mobile {
+    padding-top: 46px;
+    padding-bottom: 47px;
+    margin-bottom: 7px;
+  }
 }
+
 .promo__text,
 .promo__add-text {
   font-family: 'Geometria', sans-serif;
@@ -17,7 +31,17 @@
   line-height: 120%;
   color: $color-black;
   margin-bottom: 40px;
+  @include media-mobile {
+    width: 267px;
+  }
 }
 .promo__add-text {
   margin-bottom: 0;
+  @include media-mobile {
+    margin-bottom: 39px;
+  }
+}
+.promo__image img {
+  width: 290px;
+  border-radius: 10px;
 }

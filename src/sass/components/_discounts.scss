@@ -5,11 +5,20 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-bottom: 69px;
+  @include media-mobile {
+    padding-top: 30px;
+    background-size: cover;
+    background-position: right;
+  }
 }
 .discount__title h2 {
   color: $color-additional;
   width: 387px;
   margin-bottom: 34px;
+  @include media-mobile {
+    width: 256px;
+    margin-bottom: 19px;
+  }
 }
 .discount__text p {
   font-family: "Geometria", sans-serif;
@@ -20,6 +29,10 @@
   color: #2B2422;
   margin-bottom: 46px;
   width: 442px;
+  @include media-mobile {
+    width: 266px;
+    margin-bottom: 19px;
+  }
 }
 .button__application {
   padding: 11px 41px 13px 22px;

@@ -3,6 +3,11 @@
   background-size: 1920px 388px;
   background-repeat: no-repeat;
   background-position: right top;
+  @include media-mobile {
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 600px;
+  }
 }
 .contacts__shadow {
   background: linear-gradient(90deg, #212121 3.84%, rgba(12, 12, 12, 0.359375) 74.98%, rgba(0, 0, 0, 0) 100%);
@@ -13,6 +18,10 @@
   width: 401px;
   margin-bottom: 32px;
   margin-top: 87px;
+  @include media-mobile {
+    width: 266px;
+    margin-bottom: 16px;
+  }
 }
 .contacts__text p {
    font-family: "Geometria", sans-serif;
@@ -23,9 +32,17 @@
    color: $color-description;
    margin-bottom: 90px;
    width: 411px;
+  @include media-mobile {
+    width: 256px;
+    margin-bottom: 47px;
+  }
  }
 .first_contact {
   padding-right: 148px;
+  @include media-mobile {
+    padding-right: 0px;
+  }
+
 }
 .second__contact {
   margin-top: 102px;
@@ -44,6 +61,12 @@
   font-weight: 400;
   font-size: 2.6rem;
   line-height: 110%;
+  @include media-mobile {
+    width: 294px;
+    margin-bottom: 10px;
+    height: 52px;
+    font-size: 1.6rem;
+  }
 }
 ::placeholder {
   color: $color-popup;
@@ -64,4 +87,11 @@
 }
 .button__contacts {
   margin-left: 280px;
+  @include media-mobile {
+    margin-left: 0;
+  }
+}
+.layout-contacts {
+  flex-direction: column-reverse;
+  align-items: flex-start;
 }

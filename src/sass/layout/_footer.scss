@@ -9,6 +9,10 @@
 .footer__icons {
   margin-top: 58px;
   margin-left: 110px;
+  @include media-mobile {
+    margin-top: 25px;
+    margin-left: 0;
+  }
 }
 .ico {
   margin-right: 23px;
@@ -51,4 +55,15 @@
 }
 .logo__bridge {
   margin-top: 63px;
+  @include media-mobile {
+    margin-bottom: 44px;
+  }
+}
+.ico {
+  @include media-mobile {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+  }
 }

@@ -1,16 +1,47 @@
 .info__city {
   padding-bottom: 110px;
+  @include media-mobile {
+    padding-bottom: 91px;
+  }
 }
 .info__title {
   color: $color-additional;
   margin-bottom: 50px;
+  @include media-mobile {
+    padding-bottom: 39px;
+  }
 }
 .info-layout> * {
   margin-bottom: 30px;
 }
+.info-layout {
+  @include media-mobile {
+    max-width: 290px;
+    height: 368px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}
 .city-description {
   position: relative;
   cursor: pointer;
+  @include media-mobile {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 368px;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+  }
+}
+.city-description img {
+  @include media-mobile {
+    width: 290px;
+    height: 368px;
+  }
 }
 .description__text {
   display: block;
@@ -34,6 +65,9 @@
 .sport-text {
   top: 44%;
   padding-right: 84px;
+  @include media-mobile {
+    top: 54%;
+  }
 }
 
 .info-invisible {
