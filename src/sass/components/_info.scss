@@ -71,7 +71,7 @@
 }
 
 .info-invisible {
-  display: none;
+  visibility: hidden;
   font-family: 'Geometria-Medium', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -85,5 +85,5 @@
   padding-bottom: 11px;
 }
 .visible {
-  display: block;
+  visibility: visible;
 }
