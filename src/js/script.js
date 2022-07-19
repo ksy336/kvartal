@@ -34,11 +34,11 @@ document.addEventListener('keydown', function (e) {
 // add new info
 const addNewInfo = () => {
     const container = document.querySelector(".info-layout");
+    const description = document.querySelectorAll(".city-description");
+    console.log(description)
     container.addEventListener("click", function (e) {
-        const parent = e.target.closest('.info-layout');
+        const parent = e.target.closest('.city-description');
         const text = parent.querySelectorAll('.info-invisible');
-        console.log(text);
-
         if (text) {
             text.forEach((textItem) => {
                 textItem.classList.toggle("visible");
